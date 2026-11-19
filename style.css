@@ -1,0 +1,251 @@
+/* Header section */
+.name-tagline {
+    text-align: center;
+    color: #E5B94B;
+    background-color: #242424;
+    padding: 30px 20px;
+    margin: 20px;
+    border: 1px solid #C49A6C;
+    border-radius: 12px;
+}
+
+/* Main content container */
+main {
+    background-color: #242424;
+    padding: 25px;
+    margin: 20px;
+    border: 1px solid #C49A6C;
+    border-radius: 12px;
+}
+
+/* Footer section */
+.footer {
+    text-align: center;
+    background-color: #242424;
+    padding: 25px;
+    margin: 20px;
+    border: 1px solid #C49A6C;
+    border-radius: 12px;
+}
+
+/* Footer paragraph alignment */
+.footer p {
+    text-align: center;
+}
+
+/* Contact link */
+.footer a {
+    color: #E5B94B;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* Main name heading */
+h1 {
+    font-size: 2rem;
+    font-family: 'Libre Baskerville', serif;
+}
+
+/* Section headings */
+h2 {
+    font-size: 1.5rem;
+    font-family: 'Libre Baskerville', serif;
+    color: #E5B94B;
+}
+
+/* Contacts and project headings */
+h3 {
+    font-size: 1.5rem;
+    font-family: 'Libre Baskerville', serif;
+    color: #E5B94B;
+}
+
+/* General webpage appearance */
+body {
+    color: #F2EDE5;
+    background-color: #121212;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Paragraph text */
+p {
+    font-size: 1.3rem;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Header tagline alignment */
+.name-tagline p {
+    text-align: center;
+}
+
+/* Main content sections */
+.about-me,
+.things-i-love,
+.passion-projects {
+    padding: 25px;
+    margin: 30px 20px;
+}
+
+/* Section heading alignment */
+.about-me h2,
+.things-i-love h2,
+.passion-projects h2 {
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #C49A6C;
+}
+
+/* Profile picture and biography layout */
+.about-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+/* Profile picture */
+.photo-placeholder img {
+    width: 230px;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* Biography text */
+.about-text {
+    flex: 1;
+    padding: 25px;
+    background-color: #121212;
+    border: 1px solid #C49A6C;
+    border-radius: 12px;
+}
+
+/* Things I Love list layout */
+.things-i-love ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    padding: 0;
+    list-style: none;
+}
+
+/* Individual Things I Love cards */
+.things-i-love li {
+    font-size: 1.3rem;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #121212;
+    border: 1px solid #C49A6C;
+    border-radius: 12px;
+}
+
+/* Passion Projects section */
+.passion-projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Passion Projects heading */
+.passion-projects h2 {
+    flex-basis: 100%;
+}
+
+/* Individual project cards */
+.project {
+    flex: 1 1 250px;
+    min-width: 0;
+    padding: 15px;
+    background-color: #121212;
+    border: 1px solid #C49A6C;
+    border-radius: 12px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* Project descriptions */
+.project p {
+    text-align: center;
+}
+
+/* Project images */
+.project img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+}
+
+/* Mobile layout */
+@media (max-width: 600px) {
+
+    /* Main headings */
+    h1 {
+        font-size: 1.7rem;
+    }
+
+    h2 {
+        font-size: 1.35rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    /* Paragraph and list text */
+    p,
+    .things-i-love li {
+        font-size: 1rem;
+    }
+
+    /* Main content container */
+    main {
+        padding: 12px;
+        margin: 10px;
+    }
+
+    /* Main content sections */
+    .about-me,
+    .things-i-love,
+    .passion-projects {
+        padding: 12px;
+        margin: 20px 5px;
+    }
+
+    /* Profile picture and biography */
+    .about-container {
+        flex-direction: column;
+    }
+
+    .photo-placeholder img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .about-text {
+        padding: 15px;
+    }
+
+    /* Things I Love cards */
+    .things-i-love ul {
+        grid-template-columns: 1fr;
+    }
+
+    .things-i-love li {
+        padding: 15px;
+    }
+
+    /* Passion Projects cards */
+    .project {
+        flex-basis: 100%;
+    }
+
+    /* Project images */
+    .project img {
+        height: 200px;
+    }
+}
