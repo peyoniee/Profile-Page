@@ -1,46 +1,8 @@
-/* Header section */
-.name-tagline {
-    text-align: center;
-    color: #E5B94B;
-    background-color: #242424;
-    padding: 30px 20px;
-    margin: 20px;
-    border: 1px solid #C49A6C;
-    border-radius: 12px;
-}
-
-/* Main content container */
-main {
-    background-color: #242424;
-    padding: 25px;
-    margin: 20px;
-    border: 1px solid #C49A6C;
-    border-radius: 12px;
-}
-
-/* Footer section */
-.footer {
-    text-align: center;
-    background-color: #242424;
-    padding: 25px;
-    margin: 20px;
-    border: 1px solid #C49A6C;
-    border-radius: 12px;
-}
-
-/* Footer paragraph alignment */
-.footer p {
-    text-align: center;
-}
-
-/* Contact link */
-.footer a {
-    color: #E5B94B;
-    text-decoration: none;
-}
-
-.footer a:hover {
-    text-decoration: underline;
+/* General webpage appearance */
+body {
+    color: #F2EDE5;
+    background-color: #121212;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* Main name heading */
@@ -56,18 +18,11 @@ h2 {
     color: #E5B94B;
 }
 
-/* Contacts and project headings */
+/* Project headings */
 h3 {
     font-size: 1.5rem;
     font-family: 'Libre Baskerville', serif;
     color: #E5B94B;
-}
-
-/* General webpage appearance */
-body {
-    color: #F2EDE5;
-    background-color: #121212;
-    font-family: 'Montserrat', sans-serif;
 }
 
 /* Paragraph text */
@@ -77,9 +32,29 @@ p {
     text-align: justify;
 }
 
+/* Header section */
+.name-tagline {
+    text-align: center;
+    color: #E5B94B;
+    background-color: #242424;
+    padding: 30px 20px;
+    margin: 20px;
+    border: 1px solid #C49A6C;
+    border-radius: 12px;
+}
+
 /* Header tagline alignment */
 .name-tagline p {
     text-align: center;
+}
+
+/* Main content container */
+main {
+    background-color: #242424;
+    padding: 25px;
+    margin: 20px;
+    border: 1px solid #C49A6C;
+    border-radius: 12px;
 }
 
 /* Main content sections */
@@ -100,6 +75,8 @@ p {
     padding-bottom: 10px;
     border-bottom: 1px solid #C49A6C;
 }
+
+/* About Me section */
 
 /* Profile picture and biography layout */
 .about-container {
@@ -124,6 +101,8 @@ p {
     border: 1px solid #C49A6C;
     border-radius: 12px;
 }
+
+/* Things I Love section */
 
 /* Things I Love list layout */
 .things-i-love ul {
@@ -178,6 +157,31 @@ p {
     width: 100%;
     height: 280px;
     object-fit: cover;
+}
+
+/* Footer section */
+.footer {
+    text-align: center;
+    background-color: #242424;
+    padding: 25px;
+    margin: 20px;
+    border: 1px solid #C49A6C;
+    border-radius: 12px;
+}
+
+/* Footer paragraph alignment */
+.footer p {
+    text-align: center;
+}
+
+/* Contact link */
+.footer a {
+    color: #E5B94B;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
 }
 
 /* Mobile layout */
